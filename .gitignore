@@ -1,6 +1,0 @@
-# Ignore System/IDE specific directories
-.atom/
-.dist/
-.idea/
-.vs/
-.vscode/

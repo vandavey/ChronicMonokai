@@ -1,12 +1,12 @@
 /*
- Chronic Monokai VSCode Color Theme
- ==================================
+Chronic Monokai VSCode color theme
+==================================
   URI: https://raw.githubusercontent.com/vandavey/ChronicMonokai/master/theme.json
 
- Usage
- -----
- *) Copy and paste the "workbench.colorCustomizations" JSON object
-    into your VSCode preference settings file (settings.json)
+Usage
+-----
+  Copy and paste the "workbench.colorCustomizations" JSON object
+  into your VSCode preference settings file (settings.json)
 */
 {
     "workbench.colorCustomizations": {
