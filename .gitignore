@@ -1,6 +1,9 @@
-# Ignore System/IDE specific directories
+# Ignore changes in specified directories/patterns
 .atom/
 .dist/
 .idea/
 .vs/
 .vscode/
+
+node_modules
+*.vsix

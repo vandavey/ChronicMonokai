@@ -1,2 +1,5 @@
-# Specifies the repo language
+# Set the repository source language
 . linguist-language=json
+
+# Set default behavior to automatically normalize line endings.
+* text=auto

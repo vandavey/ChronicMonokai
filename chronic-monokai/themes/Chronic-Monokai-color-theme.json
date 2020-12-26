@@ -1,15 +1,17 @@
 /*
- Chronic Monokai Color Theme
- ===========================
-  Linux:
-  ------
-     Copy & paste the 'chronic-monokai' directory to the
-     resolved location of "$HOME/.vscode/extensions"
-  
-  Windows:
-  --------
-    Copy & paste the 'chronic-monokai' directory to the 
-     resolved location of "$env:USERPROFILE/.vscode/Extensions"
+* Chronic-Monokai-color-theme.json
+* --------------------------------
+*   Chronic-Monokai color theme source code file
+*
+* Installation:
+* -------------
+*   Linux:
+*     Copy & paste the 'chronic-monokai' directory to the
+*     resolved location of '<user home>/.vscode/extensions'
+*
+*   Windows:
+*     Copy & paste the 'chronic-monokai' directory to the 
+*     resolved location of '<user home>/.vscode/Extensions'
 */
 {
     "name": "Chronic-Monokai",
@@ -489,6 +491,8 @@
                 "markup.quote",
                 "meta.encoding",
                 "meta.hashtable.assignment.powershell",
+                "meta.separator.markdown",
+                "meta.separator.markdown.text.html.markdown",
                 "punctuation.definition.logical-expression.shell",
                 "punctuation.definition.string.begin.cpp",
                 "punctuation.definition.string.begin.json",
