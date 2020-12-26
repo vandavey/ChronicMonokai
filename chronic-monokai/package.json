@@ -1,0 +1,21 @@
+{
+    "name": "chronic-monokai",
+    "displayName": "Chronic-Monokai",
+    "description": "Monokai flavored editor and syntax theme",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.52.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Chronic-Monokai",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Chronic-Monokai-color-theme.json"
+            }
+        ]
+    }
+}
