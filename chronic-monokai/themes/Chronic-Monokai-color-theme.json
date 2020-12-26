@@ -1,17 +1,17 @@
 /*
-* Chronic-Monokai-color-theme.json
-* --------------------------------
-*   Chronic-Monokai color theme source code file
+*  Chronic-Monokai-color-theme.json
+*  --------------------------------
+*    Chronic-Monokai color theme source code file
 *
-* Installation:
-* -------------
-*   Linux:
-*     Copy & paste the 'chronic-monokai' directory to the
-*     resolved location of '<user home>/.vscode/extensions'
+*  Installation:
+*  -------------
+*    Linux:
+*      Copy & paste the 'chronic-monokai' directory to the
+*      resolved location of '<user home>/.vscode/extensions'
 *
-*   Windows:
-*     Copy & paste the 'chronic-monokai' directory to the 
-*     resolved location of '<user home>/.vscode/Extensions'
+*    Windows:
+*      Copy & paste the 'chronic-monokai' directory to the 
+*      resolved location of '<user home>/.vscode/Extensions'
 */
 {
     "name": "Chronic-Monokai",
