@@ -1,8 +1,8 @@
 /*
 *  package.json
 *  ------------
-*  Manifest file that defines the theme properties
-*  and relative file location
+*  Manifest file that defines the Chronic-Monokai
+*  theme properties and relative file location
 */
 {
     "name": "chronic-monokai",
