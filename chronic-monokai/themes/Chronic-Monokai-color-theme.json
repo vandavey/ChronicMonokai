@@ -6,11 +6,11 @@
 *  Installation
 *  ------------
 *  Linux:
-*      Copy and paste the 'chronic-monokai' directory to the
+*      Copy & paste the 'chronic-monokai' directory to the
 *      resolved location of '<user home>/.vscode/extensions'
 *
 *  Windows:
-*      Copy and paste the 'chronic-monokai' directory to the 
+*      Copy & paste the 'chronic-monokai' directory to the 
 *      resolved location of '<user home>/.vscode/Extensions'
 */
 {
@@ -1067,6 +1067,20 @@
             }
         },
         {
+            "scope": "keyword.operator.expansion",
+            "settings": {
+                "foreground": "#F92672",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": "keyword.operator.expansion.shell",
+            "settings": {
+                "foreground": "#F92672",
+                "fontStyle": ""
+            }
+        },
+        {
             "scope": "keyword.operator.functionlike",
             "settings": {
                 "foreground": "#F92672",
@@ -1104,7 +1118,7 @@
         {
             "scope": "keyword.operator.list.shell",
             "settings": {
-                "foreground": "#F2F2F2",
+                "foreground": "#F92672",
                 "fontStyle": ""
             }
         },
@@ -1132,7 +1146,7 @@
         {
             "scope": "keyword.operator.logical.shell",
             "settings": {
-                "foreground": "#66D9EF",
+                "foreground": "#F92672",
                 "fontStyle": ""
             }
         },
@@ -1175,7 +1189,7 @@
             "scope": "keyword.operator.redirect.shell",
             "settings": {
                 "foreground": "#F92672",
-                "fontStyle": "italic"
+                "fontStyle": ""
             }
         },
         {
@@ -1384,7 +1398,7 @@
         {
             "scope": "meta.herestring.shell",
             "settings": {
-                "foreground": "#55555555",
+                "foreground": "#F92672",
                 "fontStyle": ""
             }
         },
@@ -1392,6 +1406,13 @@
             "scope": "meta.preprocessor",
             "settings": {
                 "foreground": "#F2F2F2",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": "meta.scope.case-pattern.shell",
+            "settings": {
+                "foreground": "#66D9EF",
                 "fontStyle": ""
             }
         },
@@ -1475,7 +1496,7 @@
         {
             "scope": "punctuation.definition.logical-expression.shell",
             "settings": {
-                "foreground": "#F92672",
+                "foreground": "#F2F2F2",
                 "fontStyle": ""
             }
         },
@@ -1544,6 +1565,13 @@
         },
         {
             "scope": "punctuation.separator.pipe-sign",
+            "settings": {
+                "foreground": "#F92672",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": "punctuation.separator.pipe-sign.shell",
             "settings": {
                 "foreground": "#F92672",
                 "fontStyle": "bold"
@@ -1641,6 +1669,13 @@
             }
         },
         {
+            "scope": "punctuation.terminator.case-clause.shell",
+            "settings": {
+                "foreground": "#F92672",
+                "fontStyle": ""
+            }
+        },
+        {
             "scope": "string",
             "settings": {
                 "foreground": "#F0E479",
@@ -1664,7 +1699,7 @@
         {
             "scope": "string.interpolated.dollar.shell",
             "settings": {
-                "foreground": "#F0E479",
+                "foreground": "#F2F2F2",
                 "fontStyle": ""
             }
         },
@@ -1935,6 +1970,13 @@
             }
         },
         {
+            "scope": "variable.other.bracket.shell",
+            "settings": {
+                "foreground": "#A6E22E",
+                "fontStyle": ""
+            }
+        },
+        {
             "scope": "variable.other.global",
             "settings": {
                 "foreground": "#A6E22E",
@@ -1943,6 +1985,13 @@
         },
         {
             "scope": "variable.other.special",
+            "settings": {
+                "foreground": "#A6E22E",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": "variable.other.normal.shell",
             "settings": {
                 "foreground": "#A6E22E",
                 "fontStyle": ""
