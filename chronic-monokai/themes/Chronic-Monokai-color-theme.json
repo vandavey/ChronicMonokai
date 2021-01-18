@@ -87,6 +87,7 @@
         "editor.foreground": "#ececec",
         "editor.hoverHighlightBackground": "#3b3b3f",
         "editor.lineHighlightBackground": "#2e2e2e",
+        "editorRuler.foreground": "#b61d55d8",
         "editor.selectionBackground": "#66d9ef59",
         "editor.selectionHighlightBackground": "#575b6180",
         "editor.stackFrameHighlightBackground": "#f926734d",
@@ -1165,6 +1166,13 @@
         },
         {
             "scope": "keyword.operator.logical.shell",
+            "settings": {
+                "foreground": "#F92672",
+                "fontStyle": ""
+            }
+        },
+        {
+            "scope": "keyword.operator.noexcept.cpp",
             "settings": {
                 "foreground": "#F92672",
                 "fontStyle": ""

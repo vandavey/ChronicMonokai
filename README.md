@@ -19,5 +19,6 @@ theme inspired by the Monokai color scheme.
 
 ## Copyright & Licensing
 
-The ChronicMonokai source code is available [here](https://github.com/vandavey/ChronicMonokai)
+The ChronicMonokai source code is available
+[here](https://github.com/vandavey/ChronicMonokai)
 and licensed under the [MIT license](LICENSE.md).
