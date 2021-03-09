@@ -14,11 +14,4 @@ theme inspired by the Monokai color scheme.
 2) Restart all running instances of [VSCode](https://code.visualstudio.com/).
 3) Activate the theme by selecting *Chronic-Monokai* in the
    *Preferences: Color Theme* settings dropdown list.
-
-***
-
-## Copyright & Licensing
-
-The ChronicMonokai source code is available
-[here](https://github.com/vandavey/ChronicMonokai)
-and licensed under the [MIT license](LICENSE.md).
+ 
