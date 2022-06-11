@@ -5,13 +5,8 @@
 *
 *  Installation
 *  ------------
-*  Linux:
-*      Copy & paste the 'chronic-monokai' directory to the
-*      resolved location of '<user home>/.vscode/extensions'
-*
-*  Windows:
-*      Copy & paste the 'chronic-monokai' directory to the
-*      resolved location of '<user home>/.vscode/Extensions'
+*   Copy & paste the 'chronic-monokai' subdirectory to the
+*   resolved location of '<user home>/.vscode/extensions'
 */
 {
     "name": "Chronic-Monokai",
@@ -402,6 +397,8 @@
                 "punctuation.squarebracket",
                 "punctuation.terminator.case-clause",
                 "punctuation.terminator.statement",
+                "punctuation.vararg-ellipses",
+                "punctuation.vararg-ellipses.template.definition.cpp",
                 "source",
                 "storage.modifier.pointer",
                 "storage.modifier.reference",
@@ -522,9 +519,11 @@
                 "storage.type.built-in",
                 "storage.type.built-in.primitive",
                 "storage.type.class",
+                "storage.type.enum",
                 "storage.type.enumerable",
                 "storage.type.function",
                 "storage.type.function.python",
+                "storage.type.integral",
                 "storage.type.js",
                 "storage.type.namespace",
                 "storage.type.namespace.definition",
@@ -561,11 +560,11 @@
         },
         {
             "scope": [
+                "constant.other.database-name.sql",
                 "entity.name.class",
                 "entity.name.namespace",
                 "entity.name.function.preprocessor",
                 "entity.name.scope-resolution",
-                "entity.name.tag",
                 "entity.name.type",
                 "entity.name.type.class.templated",
                 "entity.other.attribute-name.namespace",
@@ -577,7 +576,6 @@
                 "markup.bold",
                 "markup.bold.markdown",
                 "markup.italic",
-                "meta.block.namespace",
                 "meta.body.class",
                 "meta.scope.case-pattern.shell",
                 "support.type.primitive.js",
@@ -628,8 +626,12 @@
                 "punctuation.definition.decorator",
                 "punctuation.definition.list.begin.markdown",
                 "punctuation.definition.variable.shell",
+                "support.function.aggregate.sql",
+                "support.function.conversion.sql",
                 "support.function.magic",
+                "support.function.mathematical.sql",
                 "support.function.js",
+                "support.function.sql",
                 "support.function.ts",
                 "support.variable.automatic.powershell",
                 "support.variable.drive.powershell",
@@ -651,10 +653,11 @@
                 "constant.language",
                 "constant.numeric",
                 "constant.other",
-                "interface",
                 "entity.label.special",
                 "entity.name.variable.enum-member",
                 "entity.other.attribute-name.pragma.preprocessor.cpp",
+                "enumMember",
+                "interface",
                 "keyword.control.directive",
                 "meta.preprocessor.c",
                 "punctuation.definition.interpolation",
@@ -662,6 +665,10 @@
                 "source.ignore",
                 "string.other.link.description.markdown",
                 "string.other.link.title.markdown",
+                "variable.entity.other.enummember",
+                "variable.entity.other.enummember.cpp",
+                "variable.entity.other.enummember.cs",
+                "variable.other.enummember",
             ],
             "settings": {
                 "foreground": "#AE81FF",
@@ -709,24 +716,14 @@
         },
         {
             "scope": [
+                "comment.documentation.delimiter.cs",
                 "markup.quote.markdown",
                 "meta.tag",
                 "punctuation.definition.comment.documentation",
                 "punctuation.definition.comment.xml",
             ],
             "settings": {
-                "foreground": "#A8A8A8",
-                "fontStyle": "italic"
-            }
-        },
-        {
-            "scope": [
-                "keyword.codetag.notation",
-                "keyword.operator.documentation.powershell",
-                "storage.type.class.gtkdoc",
-            ],
-            "settings": {
-                "foreground": "#AC043F",
+                "foreground": "#A7A7A7",
                 "fontStyle": ""
             }
         },
@@ -748,6 +745,19 @@
             ],
             "settings": {
                 "foreground": "#118CA2"
+            }
+        },
+        {
+            "scope": [
+                "comment.documentation.name.cs",
+                "keyword.codetag.notation",
+                "keyword.operator.documentation.powershell",
+                "storage.type.class.gtkdoc",
+                "xmlDocCommentName",
+            ],
+            "settings": {
+                "foreground": "#AC043F",
+                "fontStyle": ""
             }
         },
         {
