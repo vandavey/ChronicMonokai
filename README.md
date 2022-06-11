@@ -37,6 +37,8 @@ theme inspired by the Monokai color scheme.
     <img src="assets/MenuSample.png" width=850em alt="menus">
 </p>
 
+***
+
 ## Remarks
 
 * Semantic highlighting must be enabled in user settings
