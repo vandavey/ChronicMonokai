@@ -416,8 +416,6 @@
                 "variable.other.object.property",
                 "variable.other.member",
                 "variable.other.property",
-                "variable.other.read",
-                "variable.other.readwrite",
                 "variable.other.readwrite.powershell",
             ],
             "settings": {
@@ -480,7 +478,9 @@
                 "keyword.operator.redirection.powershell",
                 "keyword.operator.sizeof",
                 "keyword.operator.tilde",
+                "keyword.operator.typeid.cpp",
                 "keyword.other",
+                "keyword.other.rust",
                 "keyword.other.as",
                 "keyword.other.base",
                 "keyword.other.get",
@@ -563,10 +563,12 @@
                 "constant.other.database-name.sql",
                 "entity.name.class",
                 "entity.name.namespace",
+                "entity.name.function.macro.rust",
                 "entity.name.function.preprocessor",
                 "entity.name.scope-resolution",
                 "entity.name.type",
                 "entity.name.type.class.templated",
+                "entity.name.variable.preprocessor.symbol.cs",
                 "entity.other.attribute-name.namespace",
                 "entity.other.inherited-class",
                 "entity.tag.apacheconf",
@@ -590,6 +592,7 @@
                 "support.function.attribute",
                 "support.type",
                 "support.variable.magic",
+                "variable.other.constant",
                 "variable.other.constant.object.js",
                 "variable.other.constant.object.ts",
                 "variable.other.property.static",
@@ -655,11 +658,14 @@
                 "constant.other",
                 "entity.label.special",
                 "entity.name.variable.enum-member",
+                "entity.name.type.interface",
                 "entity.other.attribute-name.pragma.preprocessor.cpp",
                 "enumMember",
                 "interface",
                 "keyword.control.directive",
+                "keyword.preprocessor.cs",
                 "meta.preprocessor.c",
+                "meta.preprocessor.cs",
                 "punctuation.definition.interpolation",
                 "punctuation.definition.template-expression",
                 "source.ignore",
@@ -752,11 +758,12 @@
                 "comment.documentation.name.cs",
                 "keyword.codetag.notation",
                 "keyword.operator.documentation.powershell",
+                "storage.type.class.doxygen",
                 "storage.type.class.gtkdoc",
                 "xmlDocCommentName",
             ],
             "settings": {
-                "foreground": "#AC043F",
+                "foreground": "#BC0444",
                 "fontStyle": ""
             }
         },
@@ -821,6 +828,6 @@
                 "foreground": "#CD9731",
                 "fontStyle": ""
             }
-        },
+        }
     ]
 }
